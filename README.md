@@ -53,4 +53,30 @@ All data is loaded from local JSON files inside `/src/data/`.
 ---
 
 ## 📁 Folder Structure
-
+```text
+├── src/
+│   ├── components/
+│       ├── Sidebar.jsx
+│       ├── TopNav.jsx
+│       ├── MetricCard.jsx
+│       ├── MetricsChart.jsx
+│       ├── IssuesTable.jsx
+│       ├── ProjectSelector.jsx
+│       └── TrendChart.jsx
+│   ├── pages/
+│       ├── Dashboard.jsx
+│       ├── Projects.jsx
+│       ├── Teams.jsx
+│       ├── Developers.jsx
+│
+│   ├── data/
+│       ├── projects.json
+│       ├── metrics.json
+│       ├── issues.json
+│       └── contributors.json
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+---
