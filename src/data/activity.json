@@ -1,0 +1,25 @@
+{
+    "activities": [
+      {
+        "id": 1,
+        "text": "You assigned a task to John",
+        "time": "2 hours ago"
+      },
+      {
+        "id": 2,
+        "text": "Bug #204 was resolved",
+        "time": "5 hours ago"
+      },
+      {
+        "id": 3,
+        "text": "New project created - Dashboard UI",
+        "time": "1 day ago"
+      },
+      {
+        "id": 4,
+        "text": "You updated the Sprint Backlog",
+        "time": "2 days ago"
+      }
+    ]
+  }
+  

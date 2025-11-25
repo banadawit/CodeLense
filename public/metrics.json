@@ -1,0 +1,24 @@
+{
+  "projectId": 1,
+  "projectName": "Frontend App",
+  "coverage": 82,
+  "bugs": 6,
+  "vulnerabilities": 1,
+  "codeSmells": 14,
+  "complexity": 128,
+  "duplications": 3.4,
+  "taskStats": [
+    { "month": "Jan", "completed": 10 },
+    { "month": "Feb", "completed": 14 },
+    { "month": "Mar", "completed": 8 },
+    { "month": "Apr", "completed": 16 }
+  ],
+  "bugStats": [
+    { "day": "Mon", "bugs": 2 },
+    { "day": "Tue", "bugs": 5 },
+    { "day": "Wed", "bugs": 1 },
+    { "day": "Thu", "bugs": 4 },
+    { "day": "Fri", "bugs": 6 }
+  ]
+}
+
