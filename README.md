@@ -79,4 +79,61 @@ All data is loaded from local JSON files inside `/src/data/`.
 ├── main.jsx
 └── index.css
 ```
+
 ---
+
+## 📊 Screens (Summary)
+
+### **Dashboard**
+- KPI cards  
+- Multi-chart section  
+- Issues table  
+
+### **Projects**
+- List of projects  
+- Click to view metrics  
+
+### **Teams**
+- Team-based statistics  
+
+### **Developers**
+- Issue assignments  
+- Complexity average  
+- Activity history  
+
+---
+
+## 🎯 Purpose
+
+This project is designed as an **intermediate-level portfolio dashboard** that demonstrates:
+
+- React component structuring  
+- UI layout with sidebar + navbar  
+- Tailwind design skills  
+- Data visualization with Recharts  
+- Filtering, sorting, and dynamic rendering  
+
+It is **frontend-only** and does *not* analyze real code.
+
+---
+
+## 🔮 Future Enhancements
+
+- Connect real SonarQube API  
+- Add authentication  
+- Add role-based access  
+- Add real static analysis engine  
+- Integrate database + backend  
+
+---
+
+## 📜 License
+MIT License – free to use and modify.
+
+---
+
+## 👤 Author
+**Bana Dawit**  
+Frontend Developer  
+Ethiopia  
+
