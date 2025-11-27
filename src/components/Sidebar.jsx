@@ -7,6 +7,7 @@ export default function Sidebar() {
     { to: "/teams", label: "Teams" },
     { to: "/developers", label: "Developers" },
     { to: "/settings", label: "Settings" },
+    { to: "/tasks", label: "Tasks" },
   ];
 
   return (

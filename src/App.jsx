@@ -10,6 +10,7 @@ import Teams from "./pages/Teams";
 import Settings from "./pages/Settings";
 import Developers from "./pages/Developers";
 import ProjectDetails from "./pages/ProjectDetails";
+import TasksPage from "./pages/TasksPage";
 
 const router = createBrowserRouter([
   {
@@ -21,7 +22,8 @@ const router = createBrowserRouter([
       { path: "teams", element: <Teams /> },
       { path: "settings", element: <Settings /> },
       { path: "developers", element: <Developers /> },
-      { path: "projects/:id", element: <ProjectDetails /> }
+      { path: "projects/:id", element: <ProjectDetails /> },
+      { path: "tasks", element: <TasksPage /> }
     ]
   }
 ]);
