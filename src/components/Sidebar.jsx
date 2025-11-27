@@ -8,6 +8,7 @@ export default function Sidebar() {
     { to: "/developers", label: "Developers" },
     { to: "/settings", label: "Settings" },
     { to: "/tasks", label: "Tasks" },
+    { to: "/kanban", label: "Kanban" },
   ];
 
   return (

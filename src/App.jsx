@@ -11,6 +11,7 @@ import Settings from "./pages/Settings";
 import Developers from "./pages/Developers";
 import ProjectDetails from "./pages/ProjectDetails";
 import TasksPage from "./pages/TasksPage";
+import KanbanPage from "./pages/KanbanPage";
 
 const router = createBrowserRouter([
   {
@@ -23,7 +24,8 @@ const router = createBrowserRouter([
       { path: "settings", element: <Settings /> },
       { path: "developers", element: <Developers /> },
       { path: "projects/:id", element: <ProjectDetails /> },
-      { path: "tasks", element: <TasksPage /> }
+      { path: "tasks", element: <TasksPage /> },
+      { path: "kanban", element: <KanbanPage /> }
     ]
   }
 ]);
