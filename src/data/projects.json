@@ -1,0 +1,79 @@
+{
+    "projects": [
+      {
+        "id": 1,
+        "name": "Frontend Redesign",
+        "status": "Active",
+        "progress": 72,
+        "description": "Improving UI, accessibility, and page load performance.",
+        "metrics": {
+          "tasks": 42,
+          "completed": 30,
+          "bugs": 5,
+          "coverage": 78
+        },
+        "team": [1, 2, 5],
+        "activity": [
+          { "text": "Sara updated UI components", "time": "2 hours ago" },
+          { "text": "John fixed a header bug", "time": "1 day ago" },
+          { "text": "David created task breakdown", "time": "3 days ago" }
+        ]
+      },
+  
+      {
+        "id": 2,
+        "name": "API Integration",
+        "status": "Pending",
+        "progress": 0,
+        "description": "Connect frontend with backend APIs.",
+        "metrics": {
+          "tasks": 18,
+          "completed": 0,
+          "bugs": 0,
+          "coverage": 0
+        },
+        "team": [3, 4],
+        "activity": []
+      },
+  
+      {
+        "id": 3,
+        "name": "Dashboard UI",
+        "status": "Completed",
+        "progress": 100,
+        "description": "Finalizing dashboard layout and charts.",
+        "metrics": {
+          "tasks": 25,
+          "completed": 25,
+          "bugs": 0,
+          "coverage": 92
+        },
+        "team": [1, 2],
+        "activity": [
+          { "text": "Sara updated final screens", "time": "1 week ago" },
+          { "text": "John completed chart integrations", "time": "10 days ago" }
+        ]
+      },
+  
+      {
+        "id": 4,
+        "name": "Performance Optimization",
+        "status": "Active",
+        "progress": 55,
+        "description": "Improving load speed, memory usage, and API response times.",
+        "metrics": {
+          "tasks": 31,
+          "completed": 17,
+          "bugs": 3,
+          "coverage": 64
+        },
+        "team": [2, 5, 6],
+        "activity": [
+          { "text": "Emma improved caching strategy", "time": "4 hours ago" },
+          { "text": "David optimized database queries", "time": "2 days ago" },
+          { "text": "John reviewed performance logs", "time": "5 days ago" }
+        ]
+      }
+    ]
+  }
+  

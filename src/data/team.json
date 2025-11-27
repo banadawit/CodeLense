@@ -1,0 +1,40 @@
+{
+    "members": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "role": "Frontend Developer",
+        "status": "Active",
+        "avatar": "https://i.pravatar.cc/150?img=1"
+      },
+      {
+        "id": 2,
+        "name": "Sara Smith",
+        "role": "UI/UX Designer",
+        "status": "Active",
+        "avatar": "https://i.pravatar.cc/150?img=2"
+      },
+      {
+        "id": 3,
+        "name": "Michael Lee",
+        "role": "Backend Developer",
+        "status": "Offline",
+        "avatar": "https://i.pravatar.cc/150?img=3"
+      },
+      {
+        "id": 4,
+        "name": "Anna Green",
+        "role": "QA Engineer",
+        "status": "Active",
+        "avatar": "https://i.pravatar.cc/150?img=4"
+      },
+      {
+        "id": 5,
+        "name": "David King",
+        "role": "Team Lead",
+        "status": "Offline",
+        "avatar": "https://i.pravatar.cc/150?img=5"
+      }
+    ]
+  }
+  
