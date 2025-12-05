@@ -54,30 +54,62 @@ All data is loaded from local JSON files inside `/src/data/`.
 
 ## 📁 Folder Structure
 ```text
+├── public/
+│   ├── metrics.json
+│   └── vite.svg
 ├── src/
+│   ├── assets/
+│   │   └── react.svg
 │   ├── components/
-│       ├── Sidebar.jsx
-│       ├── TopNav.jsx
-│       ├── MetricCard.jsx
-│       ├── MetricsChart.jsx
-│       ├── IssuesTable.jsx
-│       ├── ProjectSelector.jsx
-│       └── TrendChart.jsx
-│   ├── pages/
-│       ├── Dashboard.jsx
-│       ├── Projects.jsx
-│       ├── Teams.jsx
-│       ├── Developers.jsx
-│
+│   │   ├── charts/
+│   │   │   ├── BugsLineChart.jsx
+│   │   │   ├── SeverityDistribution.jsx
+│   │   │   └── TasksBarChart.jsx
+│   │   ├── ActivityTimeline.jsx
+│   │   ├── IssuesTable.jsx
+│   │   ├── MetricCard.jsx
+│   │   ├── Metrics.jsx
+│   │   ├── ProjectActivity.jsx
+│   │   ├── ProjectCard.jsx
+│   │   ├── ProjectFilters.jsx
+│   │   ├── ProjectMetric.jsx
+│   │   ├── RecentProjects.jsx
+│   │   ├── Sidebar.jsx
+│   │   ├── TeamFilters.jsx
+│   │   ├── TeamGroup.jsx
+│   │   ├── TeamMemberCard.jsx
+│   │   └── TopNav.jsx
+│   ├── contexts/
 │   ├── data/
-│       ├── projects.json
-│       ├── metrics.json
-│       ├── issues.json
-│       └── contributors.json
-│
-├── App.jsx
-├── main.jsx
-└── index.css
+│   │   ├── activity.json
+│   │   ├── projects.json
+│   │   └── team.json
+│   ├── layout/
+│   │   └── MainLayout.jsx
+│   ├── pages/
+│   │   ├── Backlog.jsx
+│   │   ├── Complexity.jsx
+│   │   ├── Dashboard.jsx
+│   │   ├── Developers.jsx
+│   │   ├── KanbanPage.jsx
+│   │   ├── ProjectDetails.jsx
+│   │   ├── Projects.jsx
+│   │   ├── SecurityScan.jsx
+│   │   ├── Settings.jsx
+│   │   ├── TasksPage.jsx
+│   │   ├── Teams.jsx
+│   │   └── Trends.jsx
+│   ├── utils/
+│   │   └── getTeamMembers.js
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── eslint.config.js
+├── index.html
+├── package.json
+├── postcss.config.js
+├── tailwind.config.js
+└── vite.config.js
 ```
 
 ---
