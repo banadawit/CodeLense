@@ -22,11 +22,26 @@ This project focuses on **clean UI design, data visualization, and component arc
 - Trend charts (bugs & coverage over time)
 - Donut & bar charts
 - Issues table with sorting
+- Activity timeline visualization
+
+### ✔ Multiple Views & Pages
+- **Dashboard** - Overview with KPIs and charts
+- **Projects** - Project listing with detailed metrics
+- **Teams** - Team-based statistics and member cards
+- **Developers** - Developer assignments and activity
+- **Kanban Board** - Task management view
+- **Backlog** - Issue backlog management
+- **Complexity Analysis** - Code complexity visualization
+- **Security Scan** - Security vulnerability tracking
+- **Trends** - Historical trend analysis
+- **Tasks** - Task management page
+- **Settings** - Application settings
 
 ### ✔ Filtering System
 - Filter by **project, team, developer**
 - Select date range  
 - Search functionality
+- Dynamic data filtering
 
 ### ✔ Fully Responsive
 - Mobile  
@@ -35,7 +50,7 @@ This project focuses on **clean UI design, data visualization, and component arc
 
 ### ✔ Mock Data Simulation
 No backend.  
-All data is loaded from local JSON files inside `/src/data/`.
+All data is loaded from local JSON files inside `/src/data/` and `/public/`.
 
 ---
 
@@ -48,6 +63,8 @@ All data is loaded from local JSON files inside `/src/data/`.
 | Charts | Recharts |
 | Routing | React Router |
 | Data | Local JSON files |
+| Build Tool | Vite |
+| Linting | ESLint |
 | Version Control | Git + GitHub |
 
 ---
@@ -114,24 +131,70 @@ All data is loaded from local JSON files inside `/src/data/`.
 
 ---
 
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js (v16 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+```bash
+git clone https://github.com/yourusername/CodeLense.git
+cd CodeLense
+```
+
+2. Install dependencies
+```bash
+npm install
+```
+
+3. Start the development server
+```bash
+npm run dev
+```
+
+4. Open your browser and navigate to `http://localhost:5173`
+
+### Build for Production
+```bash
+npm run build
+```
+
+---
+
 ## 📊 Screens (Summary)
 
 ### **Dashboard**
 - KPI cards  
 - Multi-chart section  
 - Issues table  
+- Activity timeline
 
 ### **Projects**
 - List of projects  
-- Click to view metrics  
+- Click to view detailed metrics  
+- Project filters and search
 
 ### **Teams**
 - Team-based statistics  
+- Team member cards
+- Team grouping and filters
 
 ### **Developers**
 - Issue assignments  
 - Complexity average  
 - Activity history  
+
+### **Additional Pages**
+- **Kanban Board** - Visual task board
+- **Backlog** - Issue backlog management
+- **Complexity** - Code complexity analysis
+- **Security Scan** - Security vulnerability dashboard
+- **Trends** - Historical data trends
+- **Tasks** - Task management interface
+- **Settings** - Application configuration
 
 ---
 
@@ -144,6 +207,8 @@ This project is designed as an **intermediate-level portfolio dashboard** that d
 - Tailwind design skills  
 - Data visualization with Recharts  
 - Filtering, sorting, and dynamic rendering  
+- Multi-page routing with React Router
+- Component reusability and organization
 
 It is **frontend-only** and does *not* analyze real code.
 
@@ -156,6 +221,10 @@ It is **frontend-only** and does *not* analyze real code.
 - Add role-based access  
 - Add real static analysis engine  
 - Integrate database + backend  
+- Add dark mode support
+- Implement real-time updates
+- Add export functionality (PDF/CSV)
+- Add more chart types and visualizations
 
 ---
 
@@ -167,6 +236,4 @@ MIT License – free to use and modify.
 ## 👤 Author
 **Bana Dawit**  
 Frontend Developer  
-Ethiopia  
-
->>>>>>> 68c20f216bee4cfa5cbfa8ed0d1e61c85c33acd0
+Ethiopia
